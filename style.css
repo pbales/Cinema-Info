@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #030027;
+    line-height: 26px;
+    background-color: #F2F3D9; 
+    margin: 0px;
+  }
+  
+  nav {
+    background-color: #151E3F;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+  }
+  
+  h1 {
+    font-size: 35px;
+    color: #C16E70;
+    font-family: 'Merriweather', serif;
+    margin: 15px 0px 10px 10px;
+  }
+  
+  h1:hover {
+    cursor: pointer;
+    color: #DC9E82;
+  }
+  
+  #js-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .homeView {
+    padding-top: 20%;
+  }
+  
+  .searchView {
+    padding: 85px 0px 50px 0px;
+  }
+  
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  #js-search-term {
+    width: 50%;
+    margin: 20px 0px 10px 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5px;
+  }
+  
+  #submit-button {
+    width: 100px;
+    height: 21px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 0px;
+  }
+  
+  label {
+    font-size: 20px;
+    padding-bottom: 25px;
+  }
+  
+  #search-results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+  }
+  
+  h3 {
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+  }
+  
+  .search-result {
+    list-style: none;
+    text-align: center;
+    width: 27%;
+    margin: 10px 0px 20px 0px;
+    padding: 0px 5px 0px 5px;
+    border: 2px solid #030027;
+    border-radius: 10px;
+    background-color: #DC9E82;
+  }
+  
+  .search-result:hover {
+    cursor: pointer;
+    color: #151E3F;
+    background-color: #C16E70;
+  }
+  
+  .searchPosterImage {
+    width: 70%;
+  }
+  
+  h4 {
+    font-size: 35px;
+    line-height: 35px;
+    margin: 0px 0px 20px 0px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+  }
+  
+  .final-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+  }
+  
+  .final-result p {
+    font-size: 20px;
+  }
+   
+  .final-result ul {
+    margin-top: 0px;
+  }
+  
+  .final-result li {
+    font-size: 20px;
+  }
+
+  .final-result img {
+    width: 50%;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .search-result {
+      width: 70%;
+    }
+  
+    .searchPosterImage {
+      width: 70%;
+    }
+  
+    .posterImage {
+      width: 80%;
+    }
+  
+    .final-result {
+      width: 70%;
+    }
+  }
