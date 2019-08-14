@@ -5,7 +5,7 @@ also provides related results by genre, as well as a list of top rated movies an
 
 ### Live App
 
-https://pbales.github.io/TMDB-API-Project/
+https://pbales.github.io/Cinema-Info/
 
 ### Built With
 
