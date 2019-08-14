@@ -11,6 +11,10 @@
     <header role="banner">
       <nav role="navigation">
         <h1>Cinema-Info</h1>
+        <ul class="topMedia">
+          <li id="topMoviesLi">Top Movies</li>
+          <li id="topTvShowsLi">Top TV Shows</li>
+        </ul>
       </nav>
     </header>
     <main role="main">
@@ -22,14 +26,28 @@
             <input type="submit" value="Search" id="submit-button">
           </div>
         </form>
+        <p id="TMDBCredit">All information and ratings are provided by The Movide Database (TMDB) API</p>
         <p id="js-error-message" class="error-message"></p>
         <section class="results hidden">
           <h2>Results</h2>
+          <p id="no-results"></p>
           <ul  id="search-results">
+          </ul>
+        </section>
+        <section class="top-results">
+          <h2 id="topMovies" class="hidden">Top Movies</h2>
+          <h2 id="topTvShows" class="hidden">Top TV Shows</h2>
+          <ul id="topTvShowResults" class="hidden">
+          </ul>
+          <ul id="topMovieResults" class="hidden">
           </ul>
         </section>
         <section class="final-result hidden">
         </section>
+        <section class="genres hidden">
+          <h4 id="related-results">Related Results:</h4>
+          <ul id="final-result-genres">
+          </ul>
       </section>
     </main>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
